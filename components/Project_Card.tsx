@@ -14,7 +14,7 @@ const Project_Card: FunctionComponent<{ project: IProject ,showDetails:number|nu
     github_url,
     category,
     key_techs,
-    _id
+    id
   },
   showDetails,
   setshowDetails
@@ -26,13 +26,13 @@ const Project_Card: FunctionComponent<{ project: IProject ,showDetails:number|nu
         src={image_path}
         alt={name}
         className="cursor-pointer"
-        onClick={() => setshowDetails(_id)}
+        onClick={() => setshowDetails(id)}
         width="300"
         height="150"
         layout="responsive"
       />
       <p className="text-center my-2 font-bold">{name}</p>
-      {showDetails === _id && (
+      {showDetails === id && (
         <div  className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 md:p-10 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white rounded-lg dark:bg-black-100">
           <motion.div variants={stagger} initial='initial' animate='animate' >
            <motion.div variants={fadeInUp}  className='border-4 border-[#5ffdc6ca] dark:border-gray-100' >

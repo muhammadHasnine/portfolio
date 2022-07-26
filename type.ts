@@ -13,7 +13,7 @@ export interface Iskill {
 
 
 export interface IProject {
-    _id:number;
+    id:number;
     name:string;
     description:string;
     image_path:string;

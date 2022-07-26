@@ -1,9 +1,8 @@
 import { FunctionComponent } from "react";
 import { Iskill } from "../type";
-import { animate, motion } from "framer-motion";
-import {BsCircleFill} from "react-icons/bs"
+import { motion } from "framer-motion";
 const Bar: FunctionComponent<{ value: Iskill }> = ({
-  value: { level, name },
+  value: { Icon,level, name },
 }) => {
   const variants = {
     initial: {
@@ -28,7 +27,7 @@ const Bar: FunctionComponent<{ value: Iskill }> = ({
         animate="animate"
         style={{ width: level }}
       >
-        <BsCircleFill className="mr-3" /> {name}
+        <Icon className="mr-3" /> {name}
       </motion.div>
     </div>
   );
