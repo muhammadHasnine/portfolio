@@ -42,7 +42,7 @@ const Project_Card: FunctionComponent<{ project: IProject ,showDetails:number|nu
               width="300"
               height="150"
               layout="responsive"
-              
+                
             />
            </motion.div>
             <motion.div variants={fadeInUp} className="flex justify-center my-4 space-x-3">
