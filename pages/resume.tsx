@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Head from "next/head";
 import { fadeInUp, routeAnimation } from "../animation";
 import Bar from "../components/Bar";
 import { languages, tools } from "../data";
@@ -6,6 +7,11 @@ const resume = () => {
   return (
     <motion.div className="px-6 py-2" variants={routeAnimation} initial='initial' animate='animate'exit='exit'>
       <div className="grid md:grid-cols-2 gap-6">
+      <Head>
+        <title>
+          Muhammad Hasnine | Web Developer | Resume
+        </title>
+      </Head>
         <motion.div variants={fadeInUp} initial='initial' animate='animate'>
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div>
@@ -14,17 +20,16 @@ const resume = () => {
               Khulna Ploytechnic Institute (2017-2022)
             </p>
             <p className="my-3">
-              I am currently pursuing B.tech in Computer Science Engineering
-              from Academy of Technology
+            I&#39;m a Diploma Engineer in Computer Technology from Khulna Polytechnic Institute.
             </p>
           </div>
         </motion.div>
         <motion.div variants={fadeInUp} initial='initial' animate='animate'>
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold">Software Developer Jr.</h5>
-            <p className="font-semibold">Tata Consultancy Services</p>
-            <p className="my-3">I don&apos;t know why I am doing this job</p>
+            <h5 className="my-2 text-xl font-bold">React Js Developer</h5>
+            <p className="font-semibold">Learning Support Kit (LSKit)</p>
+            <p className="my-3">I hade done this job for experience </p>
           </div>
         </motion.div>
       </div>

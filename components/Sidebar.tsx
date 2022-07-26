@@ -22,9 +22,9 @@ const Sidebar = () => {
          </a>
         {/* Social icons */}
        <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-       <a href="#"><FaFacebook className="h-8 cursor-pointer w-7"/></a>
-        <a href="#"><SiTelegram className="h-8 cursor-pointer w-7"/></a>
-        <a href="#"><AiFillGithub className="w-8 h-8 cursor-pointer"/></a>
+       <a href="https://www.facebook.com/HabinZu/" aria-label="Facebook"><FaFacebook className="h-8 cursor-pointer w-7"/></a>
+        <a href="https://t.me/hasninesheak" aria-label="Telegram"><SiTelegram className="h-8 cursor-pointer w-7"/></a>
+        <a href="https://github.com/muhammadHasnine" aria-label="Github"><AiFillGithub className="w-8 h-8 cursor-pointer"/></a>
        </div>
 
         {/* Contacts  */}

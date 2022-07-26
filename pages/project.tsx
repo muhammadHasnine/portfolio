@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import Head from "next/head"
 import { useState } from "react"
 import { fadeInUp, routeAnimation, stagger } from "../animation"
 import Project_Card from "../components/Project_Card"
@@ -23,6 +24,11 @@ const Project = () => {
 
   return (
     <motion.div variants={routeAnimation} initial='initial' animate='animate'exit='exit'  className="px-5 py-2 overflow-y-scroll" style={{ height: "65vh" }}>
+        <Head>
+        <title>
+          Muhammad Hasnine | Web Developer | Project
+        </title>
+      </Head>
             <Project_Navbar handleFilterCategory={handleFilterCategory} active={active}/>
         <motion.div variants={stagger} initial='initial' animate='animate' className="relative grid grid-cols-12 gap-4 my-3">
             {

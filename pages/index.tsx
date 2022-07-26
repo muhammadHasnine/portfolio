@@ -2,15 +2,19 @@ import { services } from "../data";
 import ServiceCard from "../components/ServiceCard";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation, stagger } from "../animation";
-import { NextPage } from "next";
-const About:NextPage = () => {
+import Head from "next/head";
+
+const About= () => {
   return (
     <motion.div variants={routeAnimation} initial='initial' animate='animate'exit='exit' className="flex flex-col flex-grow px-6 pt-1">
+      <Head>
+        <title>
+          Muhammad Hasnine | Web Developer | About
+        </title>
+      </Head>
       <h6 className="my-3 font-medium">
-      I am currently pursuing B.Tech Degree(Final Year) in Computer Science
-        Engineering from Academy of Technology. I have 3+ years of experience in
-        Web Development and I have a Youtube Channel where I teach Full Stack
-        Web Development
+      I&#39;m a Diploma Engineer in Computer Technology from Khulna Polytechnic Institute. I have 8+ month of experience in
+        Web Development.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-black-100"

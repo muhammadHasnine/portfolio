@@ -21,7 +21,7 @@ const Project_Navbar:FunctionComponent<{
     active:string
 }> = (props) => {
   return (
-    <div className="list-none flex  space-x-3 ">
+    <div className="list-none flex flex-wrap  space-x-3 ">
         <Navitem value="all"{...props}/>
         <Navitem value="react"{...props}/>
         <Navitem value="mongo"{...props}/>
