@@ -37,7 +37,7 @@ const Sidebar = () => {
             <p className="my-2">+8801819038885</p>
         </div>
         <button className="w-8/12 text-white px-5 py-2 rounded-full bg-gradient-to-r from-green to-blue-500 " onClick={()=>window.open('mailto:mdhasninesheak@gmail.com')}>Email me</button>
-        <button className="w-8/12 text-white px-5 py-2 my-4 rounded-full bg-gradient-to-r from-green to-blue-500 " onClick={changeTheme}>{toggle ? "Light UI":"Dark UI"}</button>
+        <button className="w-8/12 text-white px-5 py-2 my-4 rounded-full bg-gradient-to-r from-green to-blue-500 " onClick={changeTheme}>{toggle ? "Dark UI":"Light UI"}</button>
 
     </div>
   )
