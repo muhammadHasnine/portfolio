@@ -4,7 +4,9 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import { ThemeProvider } from "next-themes";
 import { AnimatePresence } from "framer-motion";
+
 function MyApp({ Component, pageProps,router }: AppProps) {
+ 
   return (
     <ThemeProvider attribute="class">
       <div className="grid grid-cols-12 gap-6 px-5 mt-4 md:mt-14 mb-14 lg:px-48 sm:px-20 md:px-32">

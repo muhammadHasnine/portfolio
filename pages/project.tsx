@@ -30,7 +30,7 @@ const Project = () => {
         </title>
       </Head>
             <Project_Navbar handleFilterCategory={handleFilterCategory} active={active}/>
-        <motion.div variants={stagger} initial='initial' animate='animate' className="relative grid grid-cols-12 gap-4 my-3">
+        <motion.div variants={stagger} initial='initial' animate='animate' className="grid grid-cols-12 gap-4 my-3">
             {
                 projects.map((items,index)=>(
                     <motion.div key={index} variants={fadeInUp} className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-black-200">
