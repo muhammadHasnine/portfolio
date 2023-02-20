@@ -3,7 +3,7 @@ import {RiComputerLine} from "react-icons/ri"
 import { FaServer } from "react-icons/fa";
 import { AiOutlineApi ,AiOutlineAntDesign } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
-import {BsCircleFill} from "react-icons/bs"
+import {  BsCircleFill } from "react-icons/bs"
 export const services:Service[] = [
   {
     
@@ -91,5 +91,36 @@ export const projects: IProject[] = [
     github_url: "https://github.com/muhammadHasnine",
     category: ["react","node","mongo","express"],
     key_techs: [ "Mongo DB","Express","React js", "Node js","Redux"],
-  }
+  },
+  { 
+    id:2,
+    name: "Shikkah",
+    description:
+      "This is a MERN Stack supscription based learning web application. Design and developed responsive frontend, built backend and integrated frontend with backend and deploy to production.",
+    image_path: "/images/shikkah.png",
+    deployed_url: "https://shikkah.vercel.app",
+    github_url: "https://github.com/muhammadHasnine",
+    category: ["react","node","mongo","express"],
+    key_techs: [ "Mongo DB","Express","React js", "Node js","Redux"],
+  },
+  { 
+    id:3,
+    name: "MERN Stack Social Meida",
+    description:`Developed responsive frontend UI, built backend and encountered some logical challenges such as like, comment, follow. Integrated frontend with backend and deploy to production.`,
+    image_path: "/images/ajtimae.png",
+    deployed_url: "https://ajtimae.netlify.app",
+    github_url: "https://github.com/muhammadHasnine",
+    category: ["react","node","mongo","express"],
+    key_techs: [ "Mongo DB","Express","React js", "Node js","Redux"],
+  },
+  { 
+    id:4,
+    name: "MERN Stack Ecommerce",
+    description:"Developed responsive dynamic frontend UI, built backend, integrated frontend with backend and deploy to production.",
+    image_path: "/images/ecommerce.png",
+    deployed_url: "https://martcom.vercel.app/",
+    github_url: "https://github.com/muhammadHasnine",
+    category: ["react","node","mongo","express"],
+    key_techs: [ "Mongo DB","Express","React js", "Node js","Redux"],
+  },
 ];
