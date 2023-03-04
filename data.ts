@@ -10,7 +10,7 @@ export const services:Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>,<b>React.js</b> and <b>Next.js</b> ",
   },
   {
     Icon: FaServer,
@@ -38,7 +38,7 @@ export const languages:Iskill[] = [
   },
   {
     name:"Javascript",
-    level:"60%",
+    level:"70%",
     Icon:BsCircleFill,
   },
   {
@@ -48,7 +48,7 @@ export const languages:Iskill[] = [
   },
   {
     name:"Node Js",
-    level:"40%",
+    level:"50%",
     Icon:BsCircleFill,
   },
   {

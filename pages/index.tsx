@@ -13,8 +13,7 @@ const About= () => {
         </title>
       </Head>
       <h6 className="my-3 font-medium">
-      I&#39;m a Diploma Engineer in Computer Technology from Khulna Polytechnic Institute. I have 8+ month of experience in
-        Web Development.
+       I&#39;m Hasnine, a MERN Stack web developer with expertise in Next.js. With my diploma in computer engineering and experience in bug fixing and collaborating with teams, I've honed my skills in creating dynamic and responsive web applications that are not only user-friendly but also scalable.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-black-100"
