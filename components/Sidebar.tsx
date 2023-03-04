@@ -1,7 +1,6 @@
 import {AiFillGithub} from "react-icons/ai"
 import {FaFacebook} from "react-icons/fa"
 import {FaLinkedin} from "react-icons/fa"
-import {TiSocialLinkedinCircular} from 'react-icons/ti'
 import {GiTie} from "react-icons/gi"
 import {GoLocation} from "react-icons/go"
 import {useTheme} from "next-themes"
@@ -24,7 +23,7 @@ const Sidebar = () => {
         {/* Social icons */}
        <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
        <a href="https://www.facebook.com/HabinZu/" aria-label="Facebook"><FaFacebook className="h-8 cursor-pointer w-7"/></a>
-        <a href="https://linkedin.com/in/md-hasnine-sheak" aria-label="Telegram"><TiSocialLinkedinCircular className="h-8 cursor-pointer w-7"/></a>
+        <a href="https://linkedin.com/in/md-hasnine-sheak" aria-label="Telegram"><FaLinkedin className="h-8 cursor-pointer w-7"/></a>
         <a href="https://github.com/muhammadHasnine" aria-label="Github"><AiFillGithub className="w-8 h-8 cursor-pointer"/></a>
        </div>
 
