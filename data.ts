@@ -38,12 +38,12 @@ export const languages:Iskill[] = [
   },
   {
     name:"Javascript",
-    level:"45%",
+    level:"60%",
     Icon:BsCircleFill,
   },
   {
     name:"React Js",
-    level:"70%",
+    level:"80%",
     Icon:BsCircleFill,
   },
   {
@@ -53,7 +53,7 @@ export const languages:Iskill[] = [
   },
   {
     name:"Next Js",
-    level:"40%",
+    level:"80%",
     Icon:BsCircleFill,
   },
   {
@@ -76,8 +76,13 @@ export const tools: Iskill[] = [
   },
   {
      Icon: BsCircleFill,
-     name: 'Framer',
+     name: 'Figma',
      level: '45%',
+  },
+  {
+     Icon: BsCircleFill,
+     name: 'Postman',
+     level: '80%',
   },
 ]
 export const projects: IProject[] = [
