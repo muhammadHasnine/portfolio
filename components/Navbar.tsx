@@ -4,6 +4,7 @@ import { useRouter } from "next/router"
 
 
 const NavItem:FunctionComponent<{setactiveItem:Function,activeItem:string,route:string,name:string}> = ({setactiveItem,activeItem,route,name})=>{
+ 
   return activeItem !== name ? (
     <Link href={route}>
       <a>
@@ -20,7 +21,7 @@ const NavItem:FunctionComponent<{setactiveItem:Function,activeItem:string,route:
 const Navbar = () => {
   const {pathname} = useRouter()
   const [activeItem, setactiveItem] = useState('')
-  useEffect(()=>{
+  useEffect( () =>{
     if(pathname === "/"){
       setactiveItem("About")
     }

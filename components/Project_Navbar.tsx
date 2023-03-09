@@ -23,11 +23,10 @@ const Project_Navbar:FunctionComponent<{
   return (
     <div className="list-none flex flex-wrap  space-x-3 ">
         <Navitem value="all"{...props}/>
-        <Navitem value="react"{...props}/>
-        <Navitem value="mongo"{...props}/>
-        <Navitem value="django"{...props}/>
-        <Navitem value="express"{...props}/>
-        <Navitem value="node"{...props}/>
+        <Navitem value="MERN Stack"{...props}/>
+        <Navitem value="React Js"{...props}/>
+        <Navitem value="Tailwind CSS"{...props}/>
+        <Navitem value="Team Work"{...props}/>
     </div>
   )
 }

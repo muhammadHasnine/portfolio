@@ -13,7 +13,7 @@ const About= () => {
         </title>
       </Head>
       <h6 className="my-3 font-medium">
-      I&#39;m Hasnine, a MERN Stack web developer with expertise in Next.js. With my diploma in computer engineering and experience in bug fixing and collaborating with teams, I&#39;ve honed my skills in creating dynamic and responsive web applications that are not only user-friendly but also scalable.
+      Hi there, I&#39;m Hasnine - a skilled web developer with expertise in the MERN Stack and Next.js. My educational background is Diploma in computer engineering, combined with hands-on experience in collaborative software development and bug fixing, has enabled me to create highly responsive and dynamic web applications that are both user-friendly and scalable. I take great pride in crafting custom solutions that meet and exceed client expectations, all while adhering to the latest industry standards and best practices.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-black-100"

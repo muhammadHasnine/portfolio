@@ -19,7 +19,11 @@ const Project_Card: FunctionComponent<{ project: IProject ,showDetails:number|nu
   showDetails,
   setshowDetails
 }) => {
-  
+  const createMarkup = () =>{
+    return{
+      __html:description
+    }
+  }
   return (
     <div>
       <Image
@@ -36,7 +40,7 @@ const Project_Card: FunctionComponent<{ project: IProject ,showDetails:number|nu
       />
       <p className="text-center my-2 font-bold">{name}</p>
       {showDetails === id && (
-        <div className="absolute top-0 left-0 z-10 bg-[#cfcfcf9c] dark:bg-[#252529c3] w-full h-[200vh] md:h-[138vh]">
+        <div className="absolute top-0 left-0 z-10 bg-[#cfcfcf9c] dark:bg-[#252529c3] w-full h-[200vh] md:h-[138vh]" onClick={() => setshowDetails(null)}>
         <div  className="absolute top-[50%] md:top-[21%] left-[5%] md:left-[34%] z-10 grid w-[90%] md:w-[50%] h-auto p-2 md:p-10 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white rounded-lg dark:bg-black-100">
           <motion.div variants={stagger} initial='initial' animate='animate' >
            <motion.div variants={fadeInUp}  className='border-4 border-[#5ffdc6ca] dark:border-gray-100' >
@@ -69,7 +73,7 @@ const Project_Card: FunctionComponent<{ project: IProject ,showDetails:number|nu
           </motion.div>
           <motion.div variants={stagger} initial='initial' animate='animate'>
             <motion.h2 variants={fadeInUp} className="mb-3 text-xl md:text-2xl font-medium">{name}</motion.h2>
-            <motion.h3 variants={fadeInUp} className="mb-3 font-medium">{description}</motion.h3>
+            <motion.h3 variants={fadeInUp} className="mb-3 font-medium h-[150px] overflow-x-auto" dangerouslySetInnerHTML={createMarkup()}/>
             <motion.div variants={fadeInUp} className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wide">
               {key_techs.map((items) => (
                 <span
