@@ -142,7 +142,7 @@ export const projects: IProject[] = [
     id:6,
     name: "My new Portfolio",
     description:"This is my new portfolio where i'm showcasing my projects.",
-    image_path: "https://res.cloudinary.com/dd77bcaju/image/upload/v1735706218/Portfolio-projects/hasnineoldportfolio_r0hwln.png",
+    image_path: "https://res.cloudinary.com/dd77bcaju/image/upload/v1735743472/Portfolio-projects/hasnine-new-portfolio_npk945.png",
     deployed_url: "https://hasnine.vercel.app",
     github_url: "#",
     category: ["React Js"],
