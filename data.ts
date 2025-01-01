@@ -138,4 +138,14 @@ export const projects: IProject[] = [
     category: ["React Js"],
     key_techs: [ "React js","Framer motion"],
   },
+  { 
+    id:6,
+    name: "My new Portfolio",
+    description:"This is my new portfolio where i'm showcasing my projects.",
+    image_path: "https://res.cloudinary.com/dd77bcaju/image/upload/v1735706218/Portfolio-projects/hasnineoldportfolio_r0hwln.png",
+    deployed_url: "https://hasnine.vercel.app",
+    github_url: "#",
+    category: ["React Js"],
+    key_techs: [ "React js","Framer motion"],
+  },
 ];
